@@ -1,0 +1,10 @@
+*, *:before, *:after {box-sizing: border-box;margin: 0;padding: 0;}
+body{font-family: "Poppins", sans-serif;}
+.container{width: 100%;padding-left: 10%;padding-right: 10%;display: flex;align-items: center;padding-top: 40px;column-gap: 30px;}
+.left__container{width: 50%;height: auto;padding-left: 20px;}
+.right__container img{margin-bottom: 10px;}
+.container__head{font-size: 24px;color: #000;font-weight: 600;position: relative;padding-bottom: 5px;} 
+.container__head::before{background-color: #0875bb;color: blue;content: "";height: 100%;left: -15px;position: absolute; top: 0;width: 4px;}
+.container__para{font-size: 18px;line-height: 1.5;}
+
+.right__container{width: 50%;height: auto;padding-left: 20px;}
