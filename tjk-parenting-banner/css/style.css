@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+*,*::before,*::after{margin:0px;padding:0px;box-sizing: border-box;}
+body{font-size:16px;font-weight:400;font-family: "Urbanist",sans-serif;}
+img{max-width: 100%;height: auto;display:inline-block;}
+a{display: inline-block;text-decoration: none;}
+h5,h6{line-height: 1.4;}
+
+/* below 768 */
+.container{width:100%;margin-left:auto;margin-right:auto;margin-top: 50px;margin-bottom: 100px;}
+.parenting-topics{background-image:url(/images/banner-bg.webp);background-repeat: no-repeat;background-size:cover;border-bottom-left-radius: 60px;border-bottom-right-radius: 60px;display: grid;grid-template-rows:repeat(3, auto);grid-template-columns:repeat(2,1fr);padding-top: 30px;text-align: center;height:764px;
+grid-template-areas:
+"   header  header "
+"   cards   cards  "
+"   image   image  ";}
+.parenting-topics-header{grid-area:header;padding-left: 16px;padding-right:16px;}
+.parenting-topics__cards{grid-area:cards;display: grid;grid-template-columns:repeat(2, 1fr);gap: 16px;margin-top: 30px;padding-left: 16px;padding-right:16px;}
+.parenting-topics__image{grid-area:image;}
+.parenting-topics__card{align-items: center;background-color: #fff;border-radius: 10px;color: #000;display: flex;flex-direction: column;justify-content: center;min-height: 160px;padding: 24px;transition: .3s;}
+.parenting-topics__card-img{margin-bottom: 16px;}
+.parenting-topics__card-title{font-size: 16px;}
+.parenting-topics-title{color: white;font-size: 24px;margin-bottom:10px;}
+.parenting-topics-subtitle{color:white;font-size: 14px;font-weight: 500;max-width: 544px;margin-left: auto;margin-right: auto;line-height: 1.2;}
+
+/* resposive */
+@media screen and (min-width:768px) {
+  .parenting-topics{
+    border-bottom-left-radius:100px;border-bottom-right-radius:100px;
+    padding-top:50px;
+    height: 538px;
+    grid-template-rows:repeat(2, auto);
+    grid-template-areas:
+    "   header  header "
+    "   image   cards  ";}
+    .parenting-topics__image{display: flex;flex-direction: row;justify-content: center;align-items: flex-end;}
+    .parenting-topics__image img {width:338px;height: 386px;}
+    .parenting-topics__cards{margin-top:0;align-self: center;}
+    .parenting-topics__card{min-height:130px;padding: 15px;}
+    .parenting-topics-title{font-size: 42px;}
+    .parenting-topics-subtitle{font-size: 18px;}
+
+}
+
+@media screen and (min-width:992px) {
+  .parenting-topics{height: 683px;}
+    .parenting-topics__image img {width:466px;height:530px;}
+    .parenting-topics__cards{margin-top:0;align-self: center;}
+    .parenting-topics__card{min-height:160px;padding: 24px;}
+    .parenting-topics__card-title{font-size: 20px;}
+
+}
+@media screen and (min-width:1200px) {
+}
