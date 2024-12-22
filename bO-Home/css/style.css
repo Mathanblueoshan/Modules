@@ -24,7 +24,7 @@ a{color: var(--secondary-color);display: block;text-decoration: none;}
 .introduction-right__image{grid-row: 1/2;background-image: url(/images/home-bg.webp);background-size: cover;background-position-x: 50%;background-position-y: 50%;width: 90%;margin-left:auto;margin-right: auto;}
 .introduction__heading{color: var(--primary-color);font-size: 30px;font-weight: 700;line-height: 1.1;margin-bottom: 18px;}
 .introduction__subheading{font-size:20px;font-weight: 700;line-height: 1.2;margin-bottom:10px;}
-.swiper{height:80px;width:100%;}
+.swiper{height:70px;width:100%;}
 .swiper-slide p {background-color: var(--secondary-color);color: #fff;display: inline-block;font-size: 20px;font-weight:800;padding:10px;margin-bottom: 15px;}
 
 /* about */
@@ -104,6 +104,9 @@ a{color: var(--secondary-color);display: block;text-decoration: none;}
 @media (min-width:576px){
   .container{max-width: 540px;}
    
+  /* intro */
+  .swiper{height:80px}
+
   /* about */
   .about p{margin-bottom: 20px;}
   /* 6cards */
@@ -119,6 +122,7 @@ a{color: var(--secondary-color);display: block;text-decoration: none;}
   .introduction__heading{font-size: 32px;}
   .introduction__subheading{font-size: 28px;margin-bottom: 40px;}
   .introduction-right__image{width:100%;}
+  .swiper{height:120px}
 
   /* about */
   .about__heading{font-size: 34px;margin-bottom: 40px;}
@@ -156,7 +160,6 @@ a{color: var(--secondary-color);display: block;text-decoration: none;}
 @media (min-width:992px){
   .container{max-width: 960px;}
   .introduction__heading{font-size: 60px;}
-  .swiper{height:120px}
   .swiper-slide p {font-size: 28px;}
 
     /* about */
