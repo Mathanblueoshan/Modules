@@ -1,8 +1,0 @@
-<svg id="wave" viewBox="140 140 140 140">
-<defs>
-<clipPath id="clipPathSvg" clipPathUnits="objectBoundingBox" transform="scale(0.00158)">
-<path vector-effect="non-scaling-stroke" fill="black" d="M362.5, 4 C487, 4 631, -44 631, 201.5 C631, 447 538, 623.5 310.5, 581.5 C83, 539.5 -29.917, 266.627 7, 156.5 C43.917, 46.373 238, 4 362.5, 4 Z;M370, 18 C494.5, 18 627, -56.5 627, 189 C627, 434.5 405.5, 573.5 155.5, 581 C-94.5, 588.5 23.083, 175.127 60, 65 C96.917, -45.127 245.5, 18 370, 18 Z">
-</path>
-</clipPath>
-</defs>
-</svg>
