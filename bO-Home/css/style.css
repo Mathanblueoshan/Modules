@@ -20,11 +20,11 @@ a{color: var(--secondary-color);display: block;text-decoration: none;}
 .main{padding-top:10px;background-image: url(/images/bg-min.webp);background-repeat: no-repeat;background-size: cover;}
 .container{margin-left: auto;margin-right:auto;padding-left:1rem;padding-right:1rem;width:100%;}
 
-/* intro */
-.introduction{display: grid;align-items:center;justify-content: center;}
-.introduction-right__image{grid-row: 1/2;background-image: url(/images/home-bg.webp);background-size: cover;background-position-x: 50%;background-position-y: 50%;width: 90%;margin-left:auto;margin-right: auto;}
-.introduction__heading{color: var(--primary-color);font-size: 30px;font-weight: 700;line-height: 1.1;margin-bottom: 18px;}
-.introduction__subheading{font-size:20px;font-weight: 700;line-height: 1.2;margin-bottom:10px;}
+/* hero */
+.hero-slider{display: grid;align-items:center;justify-content: center;}
+.hero-slider-right__image{grid-row: 1/2;background-image: url(/images/home-bg.webp);background-size: cover;background-position-x: 50%;background-position-y: 50%;width: 90%;margin-left:auto;margin-right: auto;}
+.hero-slider__heading{color: var(--primary-color);font-size: 30px;font-weight: 700;line-height: 1.1;margin-bottom: 18px;}
+.hero-slider__subheading{font-size:20px;font-weight: 700;line-height: 1.2;margin-bottom:10px;}
 .swiper{height:70px;width:100%;}
 .swiper-slide p {background-color: var(--secondary-color);color: #fff;display: inline-block;font-size: 20px;font-weight:800;padding:10px;margin-bottom: 15px;}
 
@@ -118,11 +118,11 @@ a{color: var(--secondary-color);display: block;text-decoration: none;}
 }
 @media (min-width:768px){
   .container{max-width: 720px;}
-  .introduction{grid-template-columns:45.64% 50%;column-gap: 30px;}
-  .introduction-right__image{grid-row:unset;}
-  .introduction__heading{font-size: 32px;}
-  .introduction__subheading{font-size: 28px;margin-bottom: 40px;}
-  .introduction-right__image{width:100%;}
+  .hero-slider{grid-template-columns:45.64% 50%;column-gap: 30px;}
+  .hero-slider-right__image{grid-row:unset;}
+  .hero-slider__heading{font-size: 32px;}
+  .hero-slider__subheading{font-size: 28px;margin-bottom: 40px;}
+  .hero-slider-right__image{width:100%;}
   .swiper{height:120px}
 
   /* about */
@@ -161,7 +161,7 @@ a{color: var(--secondary-color);display: block;text-decoration: none;}
 }
 @media (min-width:992px){
   .container{max-width: 960px;}
-  .introduction__heading{font-size: 60px;}
+  .hero-slider__heading{font-size: 60px;}
   .swiper-slide p {font-size: 28px;}
 
     /* about */
